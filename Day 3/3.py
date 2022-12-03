@@ -1,5 +1,5 @@
 ans = 0
-X = [line for line in open('3.ex')]
+X = [line for line in open('3.txt')]
 i = 0
 
 while i < len(X):
@@ -14,7 +14,7 @@ while i < len(X):
 
 print(ans)
 
-for line in open('3.ex'):
+for line in open('3.txt'):
     x = line.strip()
     y = x[:len(x)//2]
     z = x[len(x)//2:]

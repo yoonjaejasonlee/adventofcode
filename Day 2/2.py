@@ -1,4 +1,4 @@
-X = [l.strip() for l in open('2.ex')]
+X = [l.strip() for l in open('2.txt')]
 p1 = 0
 p2 = 0
 for x in X:

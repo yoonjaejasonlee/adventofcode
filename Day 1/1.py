@@ -1,4 +1,4 @@
-X = [l.strip() for l in open('1.ex')]
+X = [l.strip() for l in open('1.txt')]
 
 q = []
 ans = 0
